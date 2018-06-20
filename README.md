@@ -11,7 +11,7 @@ window.webAppUtil.isIos();
 ### 기능들
 
 |  <center>함수</center> |  <center>파라미터</center> |  <center>리턴타입</center> | <center>설명</center> |
-|:--------|:--------:|--------:|--------:|
+|:--------:|:--------:|:--------:|:--------:|
 |<center> isAndroid </center> | <center> </center> |<center> boolean </center> | <center> 안드로이드 체크 </center> |
 |<center> isIos </center> | <center> </center> |<center> boolean </center> | <center> IOS 체크 </center> |
 |<center> getAndroidWebviewMajorVersion </center> | <center> </center> |<center> boolean </center> | <center> 안드로이드 웹뷰 메이저버전 확인 </center> |
