@@ -53,7 +53,7 @@
    *  (선행 작업으로 userAgent 에 app을 구분할 수 있는 태그값 추가 필수)
    * @return {boolean}
    */
-  WebAppUtil.isNative = function() {
+  WebAppUtil.prototype.isNative = function() {
     return window.navigator.userAgent.indexOf(APP_TAG) > -1;
   };
 
